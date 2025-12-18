@@ -3,7 +3,7 @@ name: Machine Learning CI - Train and Save the Model
 on:
   push:
     branches: [ main ]
-  pull_requests:
+  pull_request:
     branches: [ main ]
 
 jobs:
